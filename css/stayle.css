@@ -1,0 +1,66 @@
+/* stayle body  */
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+/* stayle calc  */
+.calclouter{
+    width: 250px;
+    height: 350px;
+    display: grid;
+    align-items: center;
+    background-color: hsl(220, 6%, 10%);
+    border-radius: 12px;
+    gap: 0.7rem;
+    padding: 5px;
+}
+/* stayle output  */
+#out{
+    font-size: 1.1rem;
+    background-color: #969f9622;
+    color: white;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    word-break: break-all;
+    border-radius: 5px;
+    height: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 65%);
+}
+
+/* start stayle button  */
+.calclouter button{
+    border: none;
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: hsl(204, 100%, 58%);
+    background-color: hsl(230, 6%, 20%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.calclouter button:hover{
+    background-color: hsl(230, 6%, 30%);
+}
+
+button.span-2{
+    grid-column: span 2;
+    width: 48%;
+}
+button.delete{
+    width: 22%;
+}
+button.operation{
+    width: 20%;
+    margin: 3px;
+}
+button.numper{
+    width: 23%;
+}
+/* end stayle button  */

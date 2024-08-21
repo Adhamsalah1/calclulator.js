@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stayle.css">
+    <title>calclulator</title>
+</head>
+<body>
+    <!-- start calc  -->
+    <div class="calclouter">
+        <!-- start output -->
+        <input readonly id="out">
+        <!-- end output -->
+        <!-- start button  -->
+        <div id="keys" class="button">
+            <button onclick="append11('AC')" class="span-2 ">AC</button>
+            <button onclick="append33('DEL')" id="delete" class="delete">DEL</button>
+            <button onclick="append('/')" id="opr" class="operation">/</button>
+            <button onclick="append('1')" id="num" class="numper">1</button>
+            <button onclick="append('2')" id="num" class="numper">2</button>
+            <button onclick="append('3')" id="num"  class="numper">3</button>
+            <button onclick="append('+')" id="opr" class="operation">+</button>
+            <button onclick="append('4')" id="num" class="numper">4</button>
+            <button onclick="append('5')" id="num" class="numper">5</button>
+            <button onclick="append('6')" id="num" class="numper">6</button>
+            <button onclick="append('-')" id="opr" class="operation">-</button>
+            <button onclick="append('7')" id="num" class="numper">7</button>
+            <button onclick="append('8')" id="num" class="numper">8</button>
+            <button onclick="append('9')" id="num" class="numper">9</button>
+            <button onclick="append('*')" id="opr" class="operation">*</button>
+            <button onclick="append('.')" id="num" class="numper">.</button>
+            <button onclick="append('0')" id="num" class="numper">0</button>
+            <button onclick="append22('=')" id="equl" class="span-2">=</button>
+        <!-- end button  -->
+             
+        </div>
+    </div>
+    <!-- end calc  -->
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
